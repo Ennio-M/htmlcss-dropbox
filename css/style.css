@@ -6,4 +6,51 @@
 }
 html{
     font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+/*float*/
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+/*debug*/
+.debug{
+    border: 1px solid black;
+}
+/*intestazione*/
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.logo img, .inizia{
+    padding: 0 20px;
+}
+header{
+    line-height: 70px;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: #000;
+}
+.button{
+    color: #FFFFFF;
+    background-color: #0061FF;
+    padding: 5px 20px;
+}
+.inizia a{
+    text-decoration: none;
 }
