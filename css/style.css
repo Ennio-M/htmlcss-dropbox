@@ -8,6 +8,9 @@ html{
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
 }
+body{
+    min-width: 1200px;
+}
 /*float*/
 .clearfix::after{
     content: '';
@@ -19,6 +22,17 @@ html{
 }
 .right{
     float: right;
+}
+/*utilities*/
+.button{
+    color: #FFFFFF;
+    background-color: #0061FF;
+    padding: 5px 20px;
+    text-decoration: none;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
 }
 /*debug*/
 .debug{
@@ -46,11 +60,41 @@ ul li a{
     text-decoration: none;
     color: #000;
 }
-.button{
-    color: #FFFFFF;
-    background-color: #0061FF;
-    padding: 5px 20px;
+.jumbotron{
+    background-color: #B4D0E7;
+    margin-top: 70px;
 }
-.inizia a{
+.title{
+    padding-top: 75px;
+    font-size: 35px;
+}
+.side-text{
+    width: 33%;
+    line-height: normal;
+}
+.side-text p{
+    padding: 40px 0 30px 0;
+}
+.side-text a{
+    display: inline-block;
     text-decoration: none;
+}
+.side-text a:nth-last-child(3){
+    padding-top: 10px;
+    font-size: 15px;
+    color: #000;
+}
+.side-text a:last-child{
+    padding-top: 25px;
+    padding-bottom: 80px;
+    font-size: 50px;
+    color: #000;
+}
+figure{
+    width: 67%;
+    position: relative;
+}
+.jumbotron figure img{
+    width: 100%;
+    position: absolute;
 }
